@@ -20,7 +20,10 @@ app.get("/hello", (req, res) => {
 })
 app.get("/sample", (req, res) => {
   res.send("<h1>Sample Route</h1>");
-});
+})
+app.get("/hero", (req, res) => {
+  res.send("<h1>Hero Route</h1>");
+})
 
 //PRanav POkale
 // Connect to MongoDB
