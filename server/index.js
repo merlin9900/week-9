@@ -18,6 +18,9 @@ app.get("/", (req, res) => {
 app.get("/hello", (req, res) => {
   res.send("<h1>Hello Route</h1>");
 })
+app.get("/sample", (req, res) => {
+  res.send("<h1>Sample Route</h1>");
+})
 
 //PRanav POkale
 // Connect to MongoDB
