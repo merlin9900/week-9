@@ -24,7 +24,7 @@ app.get("/sample", (req, res) => {
 app.get("/hero", (req, res) => {
   res.send("<h1>Hero Route</h1>");
 })
-app.get("/hero", (req, res) => {
+app.get("/get-data", (req, res) => {
   res.json({
     data: [
       {
