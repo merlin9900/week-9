@@ -13,7 +13,7 @@ app.use("/admin", adminRouter)
 app.use("/user", userRouter)
 
 app.get("/", (req, res) => {
-  res.send("Hello World")
+  res.send(<h1>Hello</h1>);
 })
 
 
