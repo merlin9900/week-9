@@ -24,6 +24,47 @@ app.get("/sample", (req, res) => {
 app.get("/hero", (req, res) => {
   res.send("<h1>Hero Route</h1>");
 })
+app.get("/hero", (req, res) => {
+  res.json({
+    data: [
+      {
+        id: 1,
+        name: "Pranav",
+        age: 22
+      },
+      {
+        id: 2,
+        name: "Pranav",
+        age: 22
+      },
+      {
+        id: 2,
+        name: "Pranav",
+        age: 22
+      },
+      {
+        id: 2,
+        name: "Pranav",
+        age: 22
+      },
+      {
+        id: 2,
+        name: "Pranav",
+        age: 22
+      },
+      {
+        id: 2,
+        name: "Pranav",
+        age: 22
+      },
+      {
+        id: 2,
+        name: "Pranav",
+        age: 22
+      },
+    ]
+  });
+})
 
 //PRanav POkale
 // Connect to MongoDB
