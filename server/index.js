@@ -15,6 +15,9 @@ app.use("/user", userRouter)
 app.get("/", (req, res) => {
   res.send("<h1>Hello</h1>");
 })
+app.get("/hello", (req, res) => {
+  res.send("<h1>Hello</h1>");
+})
 
 //PRanav POkale
 // Connect to MongoDB
