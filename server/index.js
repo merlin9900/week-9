@@ -21,6 +21,9 @@ app.get("/hello", (req, res) => {
 app.get("/sample", (req, res) => {
   res.send("<h1>Sample Route</h1>");
 })
+app.get("/hero", (req, res) => {
+  res.send("<h1>Hero Route</h1>");
+})
 
 //PRanav POkale
 // Connect to MongoDB
@@ -28,3 +31,5 @@ app.get("/sample", (req, res) => {
 // mongoose.connect('mongodb://localhost:27017/courses', { useNewUrlParser: true, useUnifiedTopology: true, dbName: "courses" });
 
 app.listen(3000, () => console.log('Server running on port 3000'));
+
+// SAMPLE ROUTE CHECK ON UBUNTU
