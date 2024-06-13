@@ -25,7 +25,7 @@ app.get("/hero", (req, res) => {
   res.send("<h1>Hero Route</h1>");
 })
 app.get("/hfp", (req, res) => {
-  res.send("<h1>Health First Priority</h1>");
+  res.send("<h1>Health First Priority Route</h1>");
 })
 app.get("/get-data", (req, res) => {
   res.json({
