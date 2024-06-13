@@ -74,6 +74,6 @@ app.get("/get-data", (req, res) => {
 // DONT MISUSE THIS THANKYOU!!
 // mongoose.connect('mongodb://localhost:27017/courses', { useNewUrlParser: true, useUnifiedTopology: true, dbName: "courses" });
 
-app.listen(6900, () => console.log('Server running on port 3000'));
+app.listen(3000, () => console.log('Server running on port 3000'));
 
 // SAMPLE ROUTE CHECK ON UBUNTU
